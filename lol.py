@@ -1,4 +1,4 @@
-"""""""""
+
 1 задача
 #n = str(input())
 #print(len(n))
@@ -49,4 +49,3 @@ if a==d:
     print('yes')
 else:
     print('no')
-"""""
