@@ -1,0 +1,53 @@
+# dz-Strelnikov
+1 задача
+n = int(input())
+print(n*2)
+
+2 задача
+n = int(input())
+print(n**2)
+
+3 задача
+a = int(input())
+b = int(input())
+c = int(input())
+d = a * 3600 + b * 60 + c
+e = d / 86400
+print('seconds:', d)
+print('day part:', e)
+
+4 задача
+n = int(input())
+if n % 10 == 7:
+    print('true')
+
+5 задача:
+a = 3
+b = 7
+c = -10
+if a != 0:
+    d = b**2 - 4*a*c
+    if d >= 0:
+        x1 = (d**0.5 - b) / (2*a)
+        x2 = (-b - d**0.5) / (2*a)
+        print(x1, x2)
+
+6 задача:
+a = int(input())
+b = int(input())
+c = int(input())
+print(max(a,b,c))
+
+7 задача:
+n = int(input())
+a = 0
+b = 0
+for i in range(n+1):
+    if i % 5 == 0 or i % 2 == 0:
+        a += 1
+        b += i
+a -= 1
+s = b/a
+p = str(s)
+k = p.find('.')
+print(p[:(k+3)])
