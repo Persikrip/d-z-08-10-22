@@ -1,0 +1,17 @@
+1 задача
+a = input()
+b=[int(x) for x in a.split()]
+print(max(b))
+
+3 задача
+a=int(input())
+b=input()
+b_list=[int(x) for x in b.split()]
+b_list.sort()
+c=0
+b_sum=[]
+for i in range(len(b_list)):
+  if c+b_list[i]<a:
+    c+=b_list[i]
+    b_sum.append(b_list[i])
+print(b_sum)
