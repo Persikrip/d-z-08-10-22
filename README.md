@@ -1,2 +1,0 @@
-# dz-Strelnikov
-hvjhcvngcnb
